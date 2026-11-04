@@ -1,0 +1,39 @@
+﻿# -- Credentials (never commit) ------------------------------------------------
+backend/.env
+
+# -- Python virtual environment ------------------------------------------------
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+
+# -- Local databases and generated vector store --------------------------------
+backend/interview_history.db
+backend/chroma_db/
+
+# -- Frontend build output and dependencies ------------------------------------
+frontend/node_modules/
+frontend/dist/
+
+# -- OS and editor artefacts ---------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# -- Test and temp files -------------------------------------------------------
+e2e_test.py
+verify_config.py
+check_db.py
+*.log
+
+probe_*.py
