@@ -2,6 +2,7 @@
 
 A full-stack, locally runnable application that helps you prepare for job interviews
 using your resume, IBM Granite AI (via watsonx.ai), and a RAG pipeline backed by ChromaDB.
+# live : https://interview-trainer-roan.vercel.app/
 
 ---
 
