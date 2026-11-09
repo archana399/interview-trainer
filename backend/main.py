@@ -44,7 +44,9 @@ app = FastAPI(title="Interview Trainer API", version="1.0.0", lifespan=lifespan)
 # ── CORS ──────────────────────────────────────────────────────────────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[    "http://localhost:5173",
+    "https://interview-trainer-roan.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
